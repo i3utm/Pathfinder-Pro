@@ -1,0 +1,101 @@
+{
+  "id": "JSCC-PYTHON",
+  "provider": "Jefferson State Community College",
+  "provider_short": "Jefferson State",
+  "program_name": "Python Programming",
+  "program_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/python-programming/",
+  "leads_to": "general programming / problem-solving skills using Python (no specific job title is named on the page)",
+  "credential": "Certificate of Completion from Jefferson State Community College",
+  "credential_source_quote": "Upon successful completion of the course students will be awarded a Certificate of Completion from Jefferson State Community College.",
+  "cost_usd": 0,
+  "cost_source_quote": "Scholarship Class – No Cost",
+  "cost_notes": [
+    "The $0 cost is listed under the heading 'Scholarship Class' and is immediately followed on the page by a separate link to apply for the 'Jefferson State IT Workforce Training Grant,' so it is unclear whether the no-cost status is automatic or depends on a separate grant award.",
+    "No mention of when any fee, if one ever applies, would be due."
+  ],
+  "format": "not stated",
+  "format_source_quote": null,
+  "cohorts": [],
+  "requirements": [],
+  "contacts": [
+    {
+      "role": "Registration assistance - Jefferson Campus",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "2601 Carson Road, George Wallace Hall, Office 202, Birmingham, AL 35215",
+      "url": ""
+    },
+    {
+      "role": "Registration assistance - Shelby-Hoover Campus",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "4600 Valleydale Road, Health Science Building, Office 432, Birmingham, AL 35242",
+      "url": ""
+    }
+  ],
+  "data_quality_flags": [
+    {
+      "id": "no-cohort-dates",
+      "severity": "incomplete",
+      "field": "cohorts",
+      "note": "The page gives no cohort start or end dates, days, or times; it only says enrollment is ongoing and open, so no one can plan around an actual schedule from this page alone.",
+      "source_quote": "Courses are offered on an ongoing basis and we offer open enrollment."
+    },
+    {
+      "id": "format-not-stated",
+      "severity": "incomplete",
+      "field": "format",
+      "note": "The page never says whether class sessions are online, in person, or hybrid. The two campus addresses listed are only for in-person registration help, not necessarily where or how the class itself is taught.",
+      "source_quote": null
+    },
+    {
+      "id": "no-eligibility-requirements",
+      "severity": "incomplete",
+      "field": "requirements",
+      "note": "No prerequisites, required documents, or assessments are listed anywhere on the page, so it is unknown whether anyone can enroll or whether some screening applies.",
+      "source_quote": null
+    },
+    {
+      "id": "no-named-job-outcome",
+      "severity": "incomplete",
+      "field": "leads_to",
+      "note": "The page describes general skills (problem solving, algorithm design, Python programming) but never names a specific job title, role, or industry this program is meant to lead to.",
+      "source_quote": null
+    },
+    {
+      "id": "cost-conditional-on-grant",
+      "severity": "confirm_before_relying",
+      "field": "cost_usd",
+      "note": "The 'No Cost' fee sits under a 'Scholarship Class' heading directly beside a link to apply for the 'Jefferson State IT Workforce Training Grant.' It is not clear from the page whether every applicant gets the class free or only those who are separately awarded the grant.",
+      "source_quote": "Scholarship Class – No Cost"
+    }
+  ],
+  "plain": {
+    "job_said_out_loud": "entry-level Python coder",
+    "the_job_is": "That is someone who writes simple computer programs and solves problems using the Python programming language.",
+    "what_you_get": "You get a certificate from Jefferson State saying you finished a short intro class in Python programming, and the class is listed as free.",
+    "translations": [
+      {
+        "page_says": "In this fast-track course for an Introduction to Python Programming, students will learn the basic aspects of problem solving, data representation, algorithm design, and object-oriented design and programming.",
+        "you_say": "This short class teaches you the basics of solving problems and writing computer programs."
+      },
+      {
+        "page_says": "Upon successful completion of the course students will be awarded a Certificate of Completion from Jefferson State Community College.",
+        "you_say": "If you finish the class, the college gives you a certificate saying you completed it."
+      },
+      {
+        "page_says": "Scholarship Class – No Cost",
+        "you_say": "This class does not cost anything."
+      },
+      {
+        "page_says": "Courses are offered on an ongoing basis and we offer open enrollment.",
+        "you_say": "You can sign up any time. There is no set start date listed."
+      }
+    ]
+  },
+  "fetched_at": "2026-08-28T17:40:18.641Z",
+  "review_status": "quotes_verified_pending_human_review",
+  "unverified_quotes": []
+}

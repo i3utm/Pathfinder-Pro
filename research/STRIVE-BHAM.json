@@ -1,0 +1,123 @@
+{
+  "id": "STRIVE-BHAM",
+  "provider": "STRIVE",
+  "provider_short": "STRIVE",
+  "program_name": "Career Path",
+  "program_url": "https://strive.org/our-network/birmingham",
+  "leads_to": "on-ramp to careers in healthcare",
+  "credential": null,
+  "credential_source_quote": null,
+  "cost_usd": 0,
+  "cost_source_quote": "Free Job Training in Birmingham, AL",
+  "cost_notes": [
+    "The page title reads 'Free Job Training in Birmingham, AL' which implies no cost to participants, but no section describing Career Path itself states a cost figure or confirms it applies to Career Path specifically as opposed to Fresh Start or Future Leaders.",
+    "Nothing on the page discusses when any payment, deposit, or fee would be due, which means there is no basis here to say whether funding assistance would even be relevant."
+  ],
+  "format": null,
+  "format_source_quote": null,
+  "cohorts": [],
+  "requirements": [
+    {
+      "id": "req-age-18plus",
+      "kind": "eligibility",
+      "label": "Must be an adult, age 18 or older",
+      "source_quote": "Career Path (Adults 18+)",
+      "conditional": false
+    }
+  ],
+  "contacts": [
+    {
+      "role": "STRIVE Birmingham site address",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "5529 1st Ave South, #12, Birmingham, AL 35212",
+      "url": ""
+    },
+    {
+      "role": "STRIVE national headquarters (general contact)",
+      "name": "",
+      "phone": "(212) 360-1100",
+      "email": "strive@strive.org",
+      "address": "205 East 122nd Street, New York, NY 10035",
+      "url": ""
+    },
+    {
+      "role": "STRIVE Birmingham Executive Director",
+      "name": "Quiwintre Frye",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "url": ""
+    }
+  ],
+  "data_quality_flags": [
+    {
+      "id": "flag-bundled-programs",
+      "severity": "confirm_before_relying",
+      "field": "program_name",
+      "note": "This page actually describes three separate programs at this site (Career Path, Fresh Start, Future Leaders) with different age ranges, eligibility, and outcomes. This registry entry only captures Career Path; a connector citing this entry must not apply its details to Fresh Start or Future Leaders, which have their own eligibility and credentials stated on the same page.",
+      "source_quote": "Career Path (Adults 18+)"
+    },
+    {
+      "id": "flag-cost-not-confirmed-for-program",
+      "severity": "confirm_before_relying",
+      "field": "cost_usd",
+      "note": "The 'Free' claim comes from the page title/tagline, not from the Career Path program description itself, so it is not certain this applies without exception to Career Path (materials, exams, or other fees are not addressed either way).",
+      "source_quote": "Free Job Training in Birmingham, AL"
+    },
+    {
+      "id": "flag-no-credential-named",
+      "severity": "incomplete",
+      "field": "credential",
+      "note": "No certification or credential is named for Career Path graduates. By contrast, the Fresh Start program on the same page explicitly names the OSHA-10 certification, which makes the absence of any named credential for Career Path notable rather than an oversight in this extraction.",
+      "source_quote": null
+    },
+    {
+      "id": "flag-no-format-stated",
+      "severity": "incomplete",
+      "field": "format",
+      "note": "The page never states whether Career Path classes are held online, in person, or hybrid.",
+      "source_quote": null
+    },
+    {
+      "id": "flag-no-cohort-dates",
+      "severity": "incomplete",
+      "field": "cohorts",
+      "note": "Only a weekly info-session schedule is published (days and times to learn about the program), not actual class start dates, cohort length, or end dates for Career Path itself.",
+      "source_quote": "CAREER PATH – Tuesdays and Thursdays at 11:00am"
+    },
+    {
+      "id": "flag-provider-legal-name-unstated",
+      "severity": "minor",
+      "field": "provider",
+      "note": "The page never gives a full legal entity name (e.g. an Inc./Corp suffix) for STRIVE, only the short name 'STRIVE'.",
+      "source_quote": null
+    },
+    {
+      "id": "flag-contact-is-hq-not-local",
+      "severity": "minor",
+      "field": "contacts",
+      "note": "The only phone number and email published anywhere on the page belong to STRIVE's New York headquarters, not the Birmingham site. The Birmingham site's own listing has a mailing address but no local phone or email.",
+      "source_quote": "STRIVE, 205 East 122nd Street, New York, NY, 10035, United States (212) 360-1100 strive@strive.org"
+    }
+  ],
+  "plain": {
+    "job_said_out_loud": "healthcare job training",
+    "the_job_is": "That is help getting a first job in healthcare.",
+    "what_you_get": "You get classes, coaching, and job-readiness training aimed at a healthcare job, but the page does not say if you earn a certificate or what it costs beyond calling itself free.",
+    "translations": [
+      {
+        "page_says": "Career Path includes a dynamic combination of curricula, job readiness training, coaching and occupational skills for students to build the hire-ready toolkit that employers demand.",
+        "you_say": "You take classes, get coached, and practice skills so you are ready to work."
+      },
+      {
+        "page_says": "this pilot program will offer an on-ramp to careers in healthcare",
+        "you_say": "This is a first step toward a healthcare job. It is not a finished healthcare program."
+      }
+    ]
+  },
+  "fetched_at": "2026-08-28T18:16:23.733Z",
+  "review_status": "quotes_verified_pending_human_review",
+  "unverified_quotes": []
+}

@@ -1,0 +1,119 @@
+{
+  "id": "JSCC-DATA",
+  "provider": "Jefferson State Community College",
+  "provider_short": "Jefferson State",
+  "program_name": "Data Analytics: Power BI",
+  "program_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/",
+  "leads_to": "data analyst work using Microsoft Power BI",
+  "credential": "Not stated directly; the page describes exam preparation for a Microsoft certification exam, but names two different exams (DA-100 and PL-300) without saying which one the student actually ends up certified in, or what (if anything) the course itself awards.",
+  "credential_source_quote": null,
+  "cost_usd": null,
+  "cost_source_quote": "Cost of the exam is covered by your scholarship.",
+  "cost_notes": [
+    "Only the certification exam fee is addressed, and only as 'covered by your scholarship' - no dollar figure for the course/program itself is given anywhere on the page.",
+    "Because the exam cost is described as scholarship-covered rather than paid upfront, it is unclear whether or when a student would owe money out of pocket."
+  ],
+  "format": "Not stated on page",
+  "format_source_quote": null,
+  "cohorts": [],
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "kind": "assessment",
+      "label": "Schedule your own certification exam",
+      "source_quote": "It is the responsibility of the student to schedule their national certification exams.",
+      "conditional": false
+    },
+    {
+      "id": "REQ-2",
+      "kind": "document",
+      "label": "Contact the certifying body directly if you need ADA accommodations for the exam",
+      "source_quote": "Students requesting ADA accommodations, for the certification exam, must contact the certifying body directly.",
+      "conditional": true
+    }
+  ],
+  "contacts": [
+    {
+      "role": "In-person registration assistance",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "2601 Carson Road, George Wallace Hall, Office 202, Birmingham, AL 35215",
+      "url": ""
+    },
+    {
+      "role": "In-person registration assistance",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "address": "4600 Valleydale Road, Health Science Building, Office 432, Birmingham, AL 35242",
+      "url": ""
+    }
+  ],
+  "data_quality_flags": [
+    {
+      "id": "DQ-1",
+      "severity": "do_not_rely",
+      "field": "credential / certification exam",
+      "note": "The page names two different Microsoft certification exams for this same course: DA-100 in the introduction, and PL-300 later in the Certification section, with no explanation of which is current or which the course actually prepares a student for.",
+      "source_quote": "This course will prepare candidates for the Microsoft DA-100 certification in Microsoft Power BI."
+    },
+    {
+      "id": "DQ-2",
+      "severity": "incomplete",
+      "field": "credential",
+      "note": "The page never states what the student receives from the course itself (a certificate of completion, a grade, nothing) versus what they would separately earn by passing a Microsoft exam on their own.",
+      "source_quote": null
+    },
+    {
+      "id": "DQ-3",
+      "severity": "incomplete",
+      "field": "cost_usd",
+      "note": "No tuition or program cost figure appears anywhere on the page; only the certification exam fee is addressed, and only as scholarship-covered.",
+      "source_quote": "Cost of the exam is covered by your scholarship."
+    },
+    {
+      "id": "DQ-4",
+      "severity": "incomplete",
+      "field": "cohorts",
+      "note": "No specific start dates, end dates, or session calendar are given, only that enrollment is ongoing and open, so it is impossible to tell a person when a cohort actually begins.",
+      "source_quote": "Courses are offered on an ongoing basis and we offer open enrollment."
+    },
+    {
+      "id": "DQ-5",
+      "severity": "incomplete",
+      "field": "format",
+      "note": "The page never states whether the course is delivered online, in person, or hybrid. The only location detail given is for in-person help scheduling registration at two campuses, which describes registration support, not how the course itself is taught.",
+      "source_quote": null
+    },
+    {
+      "id": "DQ-6",
+      "severity": "incomplete",
+      "field": "contacts",
+      "note": "No phone number or email address for the program is given, only two campus mailing addresses and general office hours.",
+      "source_quote": null
+    }
+  ],
+  "plain": {
+    "job_said_out_loud": "Data analyst with Power BI",
+    "the_job_is": "someone who takes a pile of business numbers and turns it into charts a company can act on",
+    "what_you_get": "A class that gets you ready for a Microsoft data analyst test, but the page does not clearly say which test, or what you get from the class itself.",
+    "translations": [
+      {
+        "page_says": "Data analysts provide accurate and valuable data to businesses, offering their employers better decision-making opportunities.",
+        "you_say": "A data analyst takes a pile of numbers and turns it into charts. The charts help a business decide what to do."
+      },
+      {
+        "page_says": "This course will prepare candidates for the Microsoft DA-100 certification in Microsoft Power BI.",
+        "you_say": "This class gets you ready for a Microsoft test. But the page names two tests, DA-100 and PL-300. Ask them which one they mean before you pay."
+      },
+      {
+        "page_says": "It is the responsibility of the student to schedule their national certification exams.",
+        "you_say": "You have to sign yourself up for the test. Nobody at the school will do it for you."
+      }
+    ]
+  },
+  "fetched_at": "2026-08-28T17:30:38.998Z",
+  "review_status": "quotes_verified_pending_human_review",
+  "unverified_quotes": []
+}

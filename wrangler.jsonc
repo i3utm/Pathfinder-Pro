@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "seven-day-pathway",
+  "compatibility_date": "2026-08-28",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    {
+      "pattern": "sevenday.immatt.com",
+      "custom_domain": true
+    }
+  ]
+}

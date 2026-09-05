@@ -1,0 +1,838 @@
+{
+  "registry_meta": {
+    "pathway": "technology reskilling",
+    "region": "Birmingham and Jefferson County, Alabama",
+    "fetched_at": "2026-08-28T10:20:00-05:00",
+    "fetched_during": "Birmingham Claude Impact Lab build window, August 28, 2026",
+    "is_synthetic": false,
+    "confirmation_notice": "Every record below was read from a public program page at the timestamp shown. Cost, schedule, cohort dates, and eligibility change without notice. Nothing here is a confirmation that a specific person qualifies for a specific opening. Only the program can confirm that.",
+    "method": "Program pages were fetched live and normalized into this schema by Claude. Every extracted field carries the verbatim source sentence it came from in source_quote, so any claim can be audited back to the page that produced it."
+  },
+  "programs": [
+    {
+      "id": "JSCC-ITHD",
+      "provider": "Jefferson State Community College",
+      "provider_short": "Jeff State",
+      "program_name": "IT Help Desk with Google IT Support Desk",
+      "academy": "Fast Track Information Technology Academy",
+      "program_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/it-help-desk-with-google-it-support-desk/",
+      "schedule_url": "https://www.jeffersonstate.edu/admissions/workforce-education-2/fast-track-course-information-registration/",
+      "leads_to": "Entry-level IT support / help desk roles",
+      "credential": "Certificate of Completion from Jefferson State, plus preparation for the Google IT Support certificate",
+      "cost_usd": 999,
+      "cost_source_quote": "IT Help Desk with Google IT Support Desk - Cost: $999",
+      "cost_notes": [
+        "Payment is due at the moment of enrollment, not later. This is the single most important scheduling fact for anyone who needs funding help, because the funding decision has to happen first.",
+        "Certification exam fees are charged separately by the certifying body on the Jeff State IT Academy's companion courses; confirm whether the Google IT Support exam is included for this specific course."
+      ],
+      "format": "Online, live instruction",
+      "format_source_quote": "ONLINE - LIVE INSTRUCTION",
+      "cohorts": [
+        {
+          "cohort_id": "JSCC-ITHD-MW-AUG",
+          "days": "Monday / Wednesday",
+          "time": "6:00 pm - 9:00 pm",
+          "start_date": "2026-08-24",
+          "end_date": "2026-11-18",
+          "status": "already_started",
+          "status_note": "This cohort began on August 24, 2026, four days before this registry was built. Late entry is a question only the program can answer."
+        },
+        {
+          "cohort_id": "JSCC-ITHD-TT-NOV",
+          "days": "Tuesday / Thursday",
+          "time": "6:00 pm - 9:00 pm",
+          "start_date": "2026-11-03",
+          "end_date": null,
+          "status": "upcoming",
+          "status_note": "The next cohort a person could plan around.",
+          "data_quality_flag": "JSCC-ITHD-DQ-01"
+        }
+      ],
+      "requirements": [
+        {
+          "id": "age18",
+          "kind": "eligibility",
+          "label": "Be 18 or older",
+          "source_quote": "18 or older",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "id": "id_docs",
+          "kind": "document",
+          "label": "Government-issued ID and a diploma, transcript, or GED in English",
+          "source_quote": "a government issued ID and diploma/transcript or GED in ENGLISH",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "id": "accuplacer",
+          "kind": "assessment",
+          "label": "Accuplacer Reading exam, only if the applicant holds an occupational diploma",
+          "source_quote": "Students with occupational diplomas must take the Accuplacer Reading exam.",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/",
+          "conditional": true
+        },
+        {
+          "id": "pay_at_enrollment",
+          "kind": "payment",
+          "label": "Pay online at the time of enrollment",
+          "source_quote": "pay online at the time of enrollment",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        }
+      ],
+      "funding_paths": [
+        "WIOA-CAREERCENTER",
+        "ACCS-PATHWAYS",
+        "JSCC-CAREERPATHWAYS",
+        "ADRS-VRS",
+        "SNAP-ET"
+      ],
+      "contacts": [
+        {
+          "role": "Fast Track / Workforce Education",
+          "name": "Jefferson State Workforce Education",
+          "phone": "(205) 856-7710",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "role": "On-site Career Center contact for funding questions",
+          "name": "Ken King, Jefferson State on-site Career Center",
+          "phone": "(205) 856-8029",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        }
+      ],
+      "in_person_help": {
+        "note": "Registration help is available in person during business hours.",
+        "hours": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
+        "locations": [
+          "Jefferson Campus, 2601 Carson Road, George Wallace Hall, Office 202",
+          "Shelby-Hoover Campus, 4600 Valleydale Road, Health Science Building, Office 432"
+        ],
+        "source_quote": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
+        "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+      },
+      "plain": {
+        "job_said_out_loud": "help desk work",
+        "the_job_is": "the job where people call you when their computer or their login will not work",
+        "what_you_get": "A certificate from the college, and you are set up to go take the Google IT Support test.",
+        "translations": [
+          {
+            "page_says": "ONLINE - LIVE INSTRUCTION",
+            "you_say": "You do it from home, but at a set time, with a teacher live on the screen. It is not something you click through on your own whenever you get a minute.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/it-help-desk-with-google-it-support-desk/"
+          },
+          {
+            "page_says": "a government issued ID and diploma/transcript or GED in ENGLISH",
+            "you_say": "Bring a photo ID, and proof you finished high school. A diploma, a transcript, or a GED all count.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/it-help-desk-with-google-it-support-desk/"
+          },
+          {
+            "page_says": "pay online at the time of enrollment",
+            "you_say": "You pay the day you sign up. Not later, not in pieces. So if you need help with the money, that call comes first.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/it-help-desk-with-google-it-support-desk/"
+          },
+          {
+            "page_says": "Students with occupational diplomas must take the Accuplacer Reading exam.",
+            "you_say": "If your high school diploma was the occupational kind, there is a short reading test first. Most people do not need it. Ask, do not assume.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/it-help-desk-with-google-it-support-desk/"
+          }
+        ]
+      },
+      "data_quality_flags": [
+        {
+          "id": "JSCC-ITHD-DQ-01",
+          "severity": "confirm_before_relying",
+          "field": "cohorts[1].end_date",
+          "note": "The published schedule lists the Tuesday/Thursday cohort as running November 3, 2026 to February 11, 2026. The end date precedes the start date, so at least one of the two is a typo on the source page. The end date is most likely meant to be February 11, 2027, but this registry does not guess: the field is left null and flagged for a human to confirm.",
+          "source_quote": "TU/TH, November 3, 2026 - February 11, 2026, 6:00 pm - 9:00 pm",
+          "source_url": "https://www.jeffersonstate.edu/admissions/workforce-education-2/fast-track-course-information-registration/"
+        }
+      ],
+      "fetched_at": "2026-08-28T10:20:00-05:00"
+    },
+    {
+      "id": "JSCC-APLUS",
+      "provider": "Jefferson State Community College",
+      "provider_short": "Jeff State",
+      "program_name": "Computer Technician with CompTIA A+ Certification Prep",
+      "academy": "Fast Track Information Technology Academy",
+      "program_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/",
+      "schedule_url": "https://www.jeffersonstate.edu/admissions/workforce-education-2/fast-track-course-information-registration/",
+      "leads_to": "Computer repair and desktop support roles",
+      "credential": "Certificate of Completion from Jefferson State, plus the option to sit for CompTIA A+",
+      "credential_source_quote": "Upon successful completion of the course students will be awarded a Certificate of Completion from Jefferson State Community College, and students will have the option of sitting for the CompTIA A+ certification.",
+      "cost_usd": 1199,
+      "cost_source_quote": "$1,199",
+      "cost_notes": [
+        "The certification exam is an additional cost on top of the course fee.",
+        "Payment is due at the moment of enrollment."
+      ],
+      "exam_fee_included": false,
+      "exam_fee_source_quote": "Exams are not included in registration fee.",
+      "format": "Online, live instruction",
+      "format_source_quote": "ONLINE - LIVE INSTRUCTION",
+      "cohorts": [
+        {
+          "cohort_id": "JSCC-APLUS-MW-AUG",
+          "days": "Monday / Wednesday",
+          "time": "6:00 pm - 9:00 pm",
+          "start_date": "2026-08-31",
+          "end_date": "2027-02-22",
+          "status": "upcoming",
+          "status_note": "Starts three days after this registry was built. This is the nearest start date of any program in the registry."
+        }
+      ],
+      "requirements": [
+        {
+          "id": "age18",
+          "kind": "eligibility",
+          "label": "Be 18 or older",
+          "source_quote": "18 or older",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "id": "id_docs",
+          "kind": "document",
+          "label": "Government-issued ID and a diploma, transcript, or GED in English",
+          "source_quote": "a government issued ID and diploma/transcript or GED in ENGLISH",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "id": "no_experience",
+          "kind": "eligibility",
+          "label": "No previous computer experience is required",
+          "source_quote": "No previous computer experience is required.",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+        },
+        {
+          "id": "pay_at_enrollment",
+          "kind": "payment",
+          "label": "Pay online at the time of enrollment",
+          "source_quote": "pay online at the time of enrollment",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        }
+      ],
+      "funding_paths": [
+        "WIOA-CAREERCENTER",
+        "ACCS-PATHWAYS",
+        "JSCC-CAREERPATHWAYS",
+        "ADRS-VRS",
+        "SNAP-ET"
+      ],
+      "contacts": [
+        {
+          "role": "Fast Track / Workforce Education",
+          "name": "Jefferson State Workforce Education",
+          "phone": "(205) 856-7710",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "role": "On-site Career Center contact for funding questions",
+          "name": "Ken King, Jefferson State on-site Career Center",
+          "phone": "(205) 856-8029",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        }
+      ],
+      "data_quality_flags": [],
+      "fetched_at": "2026-08-28T10:20:00-05:00",
+      "in_person_help": {
+        "note": "Registration help is available in person during business hours.",
+        "hours": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
+        "locations": [
+          "Jefferson Campus, 2601 Carson Road, George Wallace Hall, Office 202",
+          "Shelby-Hoover Campus, 4600 Valleydale Road, Health Science Building, Office 432"
+        ],
+        "source_quote": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
+        "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+      },
+      "plain": {
+        "job_said_out_loud": "fixing computers",
+        "the_job_is": "the job where you are the one who opens the machine up, or gets everybody's desk working",
+        "what_you_get": "A certificate from the college, and after that you can go sit for the A+ test. That test costs extra.",
+        "translations": [
+          {
+            "page_says": "ONLINE - LIVE INSTRUCTION",
+            "you_say": "You do it from home, but at a set time, with a teacher live on the screen. It is not something you click through on your own whenever you get a minute.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+          },
+          {
+            "page_says": "Upon successful completion of the course students will be awarded a Certificate of Completion from Jefferson State Community College, and students will have the option of sitting for the CompTIA A+ certification.",
+            "you_say": "You finish with a certificate from the college. Then you can go take the A+ test, which is the one employers actually ask about.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+          },
+          {
+            "page_says": "Exams are not included in registration fee.",
+            "you_say": "The A+ test itself is not in the price. It costs extra, on top of the class. Ask what it runs before you count the money.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+          },
+          {
+            "page_says": "No previous computer experience is required.",
+            "you_say": "You do not need to know anything about computers to start. They teach it from zero.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+          },
+          {
+            "page_says": "a government issued ID and diploma/transcript or GED in ENGLISH",
+            "you_say": "Bring a photo ID, and proof you finished high school. A diploma, a transcript, or a GED all count.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+          },
+          {
+            "page_says": "pay online at the time of enrollment",
+            "you_say": "You pay the day you sign up. Not later, not in pieces. So if you need help with the money, that call comes first.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "JSCC-CYBER",
+      "provider": "Jefferson State Community College",
+      "provider_short": "Jeff State",
+      "program_name": "Cyber Security",
+      "academy": "Fast Track Information Technology Academy",
+      "program_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/cyber-security/",
+      "schedule_url": "https://www.jeffersonstate.edu/admissions/workforce-education-2/fast-track-course-information-registration/",
+      "leads_to": "Security analyst and security operations roles",
+      "credential": "Certificate of Completion from Jefferson State",
+      "cost_usd": 1200,
+      "cost_source_quote": "Cyber Security - Cost: $1,200",
+      "cost_notes": [
+        "Payment is due at the moment of enrollment."
+      ],
+      "format": "Online, live instruction",
+      "format_source_quote": "ONLINE - LIVE INSTRUCTION",
+      "cohorts": [
+        {
+          "cohort_id": "JSCC-CYBER-TT-OCT",
+          "days": "Tuesday / Thursday",
+          "time": "6:30 pm - 9:30 pm",
+          "start_date": "2026-10-27",
+          "end_date": "2027-03-18",
+          "status": "upcoming",
+          "status_note": "Year not printed on the source schedule for the end date; inferred as 2027 because it follows the start date."
+        },
+        {
+          "cohort_id": "JSCC-CYBER-MW-NOV",
+          "days": "Monday / Wednesday",
+          "time": "6:30 pm - 9:30 pm",
+          "start_date": "2026-11-07",
+          "end_date": "2027-05-03",
+          "status": "upcoming",
+          "status_note": "Year not printed on the source schedule for the end date; inferred as 2027 because it follows the start date."
+        }
+      ],
+      "requirements": [
+        {
+          "id": "age18",
+          "kind": "eligibility",
+          "label": "Be 18 or older",
+          "source_quote": "18 or older",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "id": "id_docs",
+          "kind": "document",
+          "label": "Government-issued ID and a diploma, transcript, or GED in English",
+          "source_quote": "a government issued ID and diploma/transcript or GED in ENGLISH",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "id": "pay_at_enrollment",
+          "kind": "payment",
+          "label": "Pay online at the time of enrollment",
+          "source_quote": "pay online at the time of enrollment",
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        }
+      ],
+      "funding_paths": [
+        "WIOA-CAREERCENTER",
+        "ACCS-PATHWAYS",
+        "JSCC-CAREERPATHWAYS",
+        "ADRS-VRS",
+        "SNAP-ET"
+      ],
+      "contacts": [
+        {
+          "role": "Fast Track / Workforce Education",
+          "name": "Jefferson State Workforce Education",
+          "phone": "(205) 856-7710",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        }
+      ],
+      "data_quality_flags": [
+        {
+          "id": "JSCC-CYBER-DQ-01",
+          "severity": "minor",
+          "field": "cohorts[].end_date",
+          "note": "The published schedule prints end dates for both Cyber Security cohorts without a year. This registry infers 2027 on the grounds that an end date follows its start date, and records that the inference was made rather than presenting it as printed fact.",
+          "source_quote": "TU/TH, October 27 - March 18, 6:30 pm - 9:30 pm",
+          "source_url": "https://www.jeffersonstate.edu/admissions/workforce-education-2/fast-track-course-information-registration/"
+        }
+      ],
+      "fetched_at": "2026-08-28T10:20:00-05:00",
+      "in_person_help": {
+        "note": "Registration help is available in person during business hours.",
+        "hours": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
+        "locations": [
+          "Jefferson Campus, 2601 Carson Road, George Wallace Hall, Office 202",
+          "Shelby-Hoover Campus, 4600 Valleydale Road, Health Science Building, Office 432"
+        ],
+        "source_quote": "Monday-Friday, 8:00 a.m.-4:30 p.m.",
+        "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/computer-technician-with-comptia-a-certification-prep/"
+      },
+      "plain": {
+        "job_said_out_loud": "computer security work",
+        "the_job_is": "the job where you are the one watching for people trying to break into a company's systems",
+        "what_you_get": "A certificate from the college in cyber security.",
+        "translations": [
+          {
+            "page_says": "ONLINE - LIVE INSTRUCTION",
+            "you_say": "You do it from home, but at a set time, with a teacher live on the screen. It is not something you click through on your own whenever you get a minute.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/cyber-security/"
+          },
+          {
+            "page_says": "a government issued ID and diploma/transcript or GED in ENGLISH",
+            "you_say": "Bring a photo ID, and proof you finished high school. A diploma, a transcript, or a GED all count.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/cyber-security/"
+          },
+          {
+            "page_says": "pay online at the time of enrollment",
+            "you_say": "You pay the day you sign up. Not later, not in pieces. So if you need help with the money, that call comes first.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/cyber-security/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LAWSON-WFD",
+      "provider": "Lawson State Community College",
+      "provider_short": "Lawson State",
+      "program_name": "Office of Workforce Development IT training",
+      "academy": "Workforce Development",
+      "program_url": "https://www.lawsonstate.edu/learn_at_lawson/workforce_development/default.aspx",
+      "schedule_url": null,
+      "leads_to": "Entry-level IT roles, depending on the track chosen",
+      "credential": "Varies by track; includes CompTIA A+ certification preparation",
+      "cost_usd": null,
+      "cost_notes": [
+        "Cost is not published on the workforce development page. It must be requested from the office directly."
+      ],
+      "format": "Not published; the college offers online and hybrid options, and a separate Weekend College",
+      "cohorts": [],
+      "requirements": [],
+      "funding_paths": [
+        "WIOA-CAREERCENTER",
+        "ACCS-PATHWAYS",
+        "ADRS-VRS",
+        "SNAP-ET"
+      ],
+      "contacts": [
+        {
+          "role": "Office of Workforce Development",
+          "name": "Lawson State Office of Workforce Development",
+          "phone": "(205) 929-6384",
+          "url": "https://www.lawsonstate.edu/learn_at_lawson/workforce_development/default.aspx"
+        }
+      ],
+      "campus": "Birmingham Campus, 3060 Wilson Rd SW, Birmingham, AL 35221",
+      "data_quality_flags": [
+        {
+          "id": "LAWSON-DQ-01",
+          "severity": "incomplete",
+          "field": "cost_usd, cohorts, requirements",
+          "note": "Lawson State publishes the existence of IT workforce training (CompTIA A+ prep, coding, cyber security, Microsoft Office) but does not publish cost, cohort dates, or entry requirements on the public page. This registry deliberately shows the gaps as gaps rather than filling them with assumptions. A person cannot plan a week around this program without calling first, and the plan says so.",
+          "source_url": "https://www.lawsonstate.edu/learn_at_lawson/workforce_development/default.aspx"
+        }
+      ],
+      "fetched_at": "2026-08-28T10:20:00-05:00"
+    },
+    {
+      "id": "INNOVATE-BHAM",
+      "provider": "Innovate Birmingham",
+      "provider_short": "Innovate Bham",
+      "program_name": "Software Engineering Bootcamp",
+      "academy": null,
+      "program_url": "https://www.innovatebham.com/",
+      "schedule_url": null,
+      "leads_to": "Software development roles; historically a pre-apprenticeship feeder into a registered IT apprenticeship",
+      "credential": "Bootcamp completion",
+      "cost_usd": 0,
+      "cost_notes": [
+        "Historically grant funded and free to students. Whether that is still true in 2026 is exactly what cannot be confirmed from the public page."
+      ],
+      "format": "Historically a 14-week full-time in-person bootcamp at Innovation Depot",
+      "cohorts": [],
+      "requirements": [
+        {
+          "id": "age_17_29",
+          "kind": "eligibility",
+          "label": "Historically limited to ages 17 to 29",
+          "source_quote": "Applicants must be proficient in basic math and reading skills, have a high school diploma or GED, and be between the ages of 17-29.",
+          "source_url": "https://careerkarma.com/schools/innovate-birmingham/",
+          "unverified": true
+        }
+      ],
+      "funding_paths": [],
+      "contacts": [],
+      "recommendation": "do_not_plan_around_until_confirmed",
+      "data_quality_flags": [
+        {
+          "id": "INNOVATE-DQ-01",
+          "severity": "do_not_rely",
+          "field": "operating_status",
+          "note": "This program is listed here specifically because a directory would list it and a person would waste a week on it. Three signals conflict. Secondary sources report the program stopped offering courses in 2023. The live site carries a 2026 copyright and Get Started and Join Now calls to action, implying it is active. But the site's own published contact details are unfilled template placeholders, which is not what an actively recruiting program looks like. This registry does not resolve the conflict. It surfaces it, and routes the person to a program they can actually start.",
+          "source_quote": "Phone: +1 (000) 123-4567",
+          "source_url": "https://www.innovatebham.com/"
+        },
+        {
+          "id": "INNOVATE-DQ-02",
+          "severity": "confirm_before_relying",
+          "field": "requirements[age_17_29]",
+          "note": "The age range comes from a third-party bootcamp review site, not from the program itself. It is recorded as unverified. If accurate, it would exclude many career changers, which is a material eligibility question and not a detail to discover after applying.",
+          "source_url": "https://careerkarma.com/schools/innovate-birmingham/"
+        }
+      ],
+      "fetched_at": "2026-08-28T10:20:00-05:00"
+    },
+    {
+      "id": "JSCC-DATA",
+      "provider": "Jefferson State Community College",
+      "provider_short": "Jefferson State",
+      "program_name": "Data Analytics: Power BI",
+      "academy": "Information Technology Academy",
+      "program_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/",
+      "schedule_url": null,
+      "leads_to": "data analyst work using Microsoft Power BI",
+      "credential": "Not stated directly; the page describes exam preparation for a Microsoft certification exam, but names two different exams (DA-100 and PL-300) without saying which one the student actually ends up certified in, or what (if anything) the course itself awards.",
+      "cost_usd": null,
+      "cost_source_quote": "Cost of the exam is covered by your scholarship.",
+      "cost_notes": [
+        "Only the certification exam fee is addressed, and only as 'covered by your scholarship' - no dollar figure for the course/program itself is given anywhere on the page.",
+        "Because the exam cost is described as scholarship-covered rather than paid upfront, it is unclear whether or when a student would owe money out of pocket."
+      ],
+      "format": "Not stated on page",
+      "cohorts": [],
+      "requirements": [
+        {
+          "id": "JSCC-DATA-REQ-01",
+          "kind": "assessment",
+          "label": "Schedule your own certification exam",
+          "source_quote": "It is the responsibility of the student to schedule their national certification exams.",
+          "conditional": false,
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/"
+        },
+        {
+          "id": "JSCC-DATA-REQ-02",
+          "kind": "document",
+          "label": "Contact the certifying body directly if you need ADA accommodations for the exam",
+          "source_quote": "Students requesting ADA accommodations, for the certification exam, must contact the certifying body directly.",
+          "conditional": true,
+          "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/"
+        }
+      ],
+      "funding_paths": [
+        "WIOA-CAREERCENTER",
+        "ACCS-PATHWAYS",
+        "JSCC-CAREERPATHWAYS",
+        "ADRS-VRS",
+        "SNAP-ET"
+      ],
+      "contacts": [
+        {
+          "role": "In-person registration assistance",
+          "address": "2601 Carson Road, George Wallace Hall, Office 202, Birmingham, AL 35215"
+        },
+        {
+          "role": "In-person registration assistance",
+          "address": "4600 Valleydale Road, Health Science Building, Office 432, Birmingham, AL 35242"
+        }
+      ],
+      "plain": {
+        "job_said_out_loud": "Data analyst with Power BI",
+        "the_job_is": "someone who takes a pile of business numbers and turns it into charts a company can act on",
+        "what_you_get": "A class that gets you ready for a Microsoft data analyst test, but the page does not clearly say which test, or what you get from the class itself.",
+        "translations": [
+          {
+            "page_says": "Data analysts provide accurate and valuable data to businesses, offering their employers better decision-making opportunities.",
+            "you_say": "A data analyst takes a pile of numbers and turns it into charts. The charts help a business decide what to do.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/"
+          },
+          {
+            "page_says": "This course will prepare candidates for the Microsoft DA-100 certification in Microsoft Power BI.",
+            "you_say": "This class gets you ready for a Microsoft test. But the page names two tests, DA-100 and PL-300. Ask them which one they mean before you pay.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/"
+          },
+          {
+            "page_says": "It is the responsibility of the student to schedule their national certification exams.",
+            "you_say": "You have to sign yourself up for the test. Nobody at the school will do it for you.",
+            "source_url": "https://www.jeffersonstate.edu/academics/fast-track/information-technology-academy/data-analytics-power-bi/"
+          }
+        ]
+      },
+      "data_quality_flags": [
+        {
+          "id": "JSCC-DATA-DQ-01",
+          "severity": "do_not_rely",
+          "field": "credential / certification exam",
+          "note": "The page names two different Microsoft certification exams for this same course: DA-100 in the introduction, and PL-300 later in the Certification section, with no explanation of which is current or which the course actually prepares a student for.",
+          "source_quote": "This course will prepare candidates for the Microsoft DA-100 certification in Microsoft Power BI."
+        },
+        {
+          "id": "JSCC-DATA-DQ-02",
+          "severity": "incomplete",
+          "field": "credential",
+          "note": "The page never states what the student receives from the course itself (a certificate of completion, a grade, nothing) versus what they would separately earn by passing a Microsoft exam on their own.",
+          "source_quote": null
+        },
+        {
+          "id": "JSCC-DATA-DQ-03",
+          "severity": "incomplete",
+          "field": "cost_usd",
+          "note": "No tuition or program cost figure appears anywhere on the page; only the certification exam fee is addressed, and only as scholarship-covered.",
+          "source_quote": "Cost of the exam is covered by your scholarship."
+        },
+        {
+          "id": "JSCC-DATA-DQ-04",
+          "severity": "incomplete",
+          "field": "cohorts",
+          "note": "No specific start dates, end dates, or session calendar are given, only that enrollment is ongoing and open, so it is impossible to tell a person when a cohort actually begins.",
+          "source_quote": "Courses are offered on an ongoing basis and we offer open enrollment."
+        },
+        {
+          "id": "JSCC-DATA-DQ-05",
+          "severity": "incomplete",
+          "field": "format",
+          "note": "The page never states whether the course is delivered online, in person, or hybrid. The only location detail given is for in-person help scheduling registration at two campuses, which describes registration support, not how the course itself is taught.",
+          "source_quote": null
+        },
+        {
+          "id": "JSCC-DATA-DQ-06",
+          "severity": "incomplete",
+          "field": "contacts",
+          "note": "No phone number or email address for the program is given, only two campus mailing addresses and general office hours.",
+          "source_quote": null
+        }
+      ],
+      "fetched_at": "2026-08-28T17:44:52.326Z"
+    }
+  ],
+  "funding_paths": [
+    {
+      "id": "WIOA-CAREERCENTER",
+      "name": "WIOA training scholarship",
+      "full_name": "Workforce Innovation and Opportunity Act training scholarship",
+      "covers": "Some workforce training program costs, for people who qualify",
+      "determined_by": "Local Alabama Career Centers, not the training provider",
+      "determined_by_source_quote": "Local Alabama Career Centers provide WIOA (Workforce Investment Opportunity Act) scholarship opportunities to qualifying students for some workforce training programs. Eligibility is based on various factors, including income.",
+      "source_url": "https://www.jeffersonstate.edu/academics/fast-track/",
+      "ordering_constraint": {
+        "rule": "funding_before_enrollment",
+        "why": "Jefferson State requires payment online at the time of enrollment, and WIOA eligibility is determined by the Career Center rather than by the college. A person who enrolls first has already paid, and a person who waits to ask about funding until the cohort opens has run out of time. The eligibility conversation has to start first.",
+        "source_quotes": [
+          "pay online at the time of enrollment",
+          "Local Alabama Career Centers provide WIOA (Workforce Investment Opportunity Act) scholarship opportunities to qualifying students for some workforce training programs."
+        ]
+      },
+      "contacts": [
+        {
+          "role": "Birmingham Career Center",
+          "name": "Birmingham Career Center",
+          "phone": "(205) 582-5200",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "role": "On-site Career Center at Jefferson State",
+          "name": "Ken King",
+          "phone": "(205) 856-8029",
+          "url": "https://www.jeffersonstate.edu/academics/fast-track/"
+        },
+        {
+          "role": "Regional workforce board",
+          "name": "Central Six AlabamaWorks",
+          "phone": "205-458-8966 ext. 1350",
+          "email": "info@centralsix.org",
+          "address": "15 Richard Arrington Jr Blvd N, Birmingham, AL 35203",
+          "url": "https://centralsix.org/"
+        },
+        {
+          "role": "State workforce department, general line",
+          "name": "Alabama Department of Workforce",
+          "phone": "(334) 309-9000",
+          "url": "https://wioa-alabama.org/adult-program/"
+        }
+      ],
+      "counties_served": [
+        "Blount",
+        "Chilton",
+        "Jefferson",
+        "Shelby",
+        "St. Clair",
+        "Walker"
+      ],
+      "counties_source_quote": "The Central Six Development Council serves the following counties: Blount, Chilton, Jefferson, Shelby, St. Clair, and Walker.",
+      "unknowns": [
+        "How long an eligibility determination takes is not published. This is the single largest unknown in any plan that depends on funding, and every plan this project generates says so out loud rather than guessing a number."
+      ],
+      "fetched_at": "2026-08-28T10:20:00-05:00",
+      "administered_by": "Alabama Career Centers, under the Alabama Department of Workforce",
+      "confidence": "verified",
+      "how_to_start": "Call a Career Center and ask to begin an eligibility determination for training assistance.",
+      "who_it_is_for": [
+        {
+          "group": "People with low income, or receiving public assistance",
+          "why": "Priority for training services goes to these groups by federal requirement.",
+          "source_quote": "priority to eligible low income and welfare recipients and to certain veterans or veteran spouses to receive specific services",
+          "source_url": "https://wioa-alabama.org/adult-program/"
+        },
+        {
+          "group": "Veterans and eligible spouses",
+          "why": "Veterans and eligible spouses receive priority of service by law, and a veteran who is also low-income or receiving public assistance is placed in the first priority group.",
+          "source_quote": "priority to eligible low income and welfare recipients and to certain veterans or veteran spouses to receive specific services",
+          "source_url": "https://wioa-alabama.org/adult-program/"
+        },
+        {
+          "group": "People who are basic skills deficient",
+          "why": "Named alongside low-income and public assistance recipients in the priority groups for training services.",
+          "source_url": "https://wioa-alabama.org/adult-program/"
+        }
+      ],
+      "extra_contacts_note": "The Alabama Department of Workforce general line is (334) 309-9000."
+    },
+    {
+      "id": "ACCS-PATHWAYS",
+      "name": "Pathways to Prosperity Scholarship",
+      "full_name": "Pathways to Prosperity Scholarship, Alabama Community College System and the Paths for Success Foundation",
+      "administered_by": "Alabama Community College System (ACCS) with the Paths for Success Foundation",
+      "covers": "Up to $4,500 toward tuition, fees, books, credentialing fees, materials, and supplies for a short-term credential program",
+      "determined_by": "The Alabama Community College System scholarship program, not the college's workforce office",
+      "determined_by_source_quote": "Students must apply, receive approval, and agree to the scholarship terms and conditions.",
+      "source_url": "https://www.accs.edu/community-college/pathways-to-prosperity-scholarship/",
+      "confidence": "confirm_before_relying",
+      "provenance_note": "The official ACCS scholarship page did not render fully for direct quotation during the build window. The details below are a faithful summary of that page, read twice, but they are recorded as paraphrase rather than verbatim quotation. Confirm the current terms on the ACCS page before relying on any of it.",
+      "why_it_matters_here": "This is the only funding path found that could cover a Jefferson State Fast Track course outright. Fast Track is non-credit, and this scholarship explicitly covers non-credit short-term credential programs at Alabama Community College System institutions. Jefferson State is such an institution.",
+      "how_to_start": "Read the terms on the ACCS scholarship page, then ask the college's workforce education office how students apply for it alongside a Fast Track registration.",
+      "who_it_is_for": [
+        {
+          "group": "Alabama residents entering a short-term credential program",
+          "why": "The scholarship is for Alabama residents enrolling in a short-term credential program, for credit or non-credit, at an ACCS institution."
+        }
+      ],
+      "conditions": [
+        "The program must be completable in two semesters or less.",
+        "The program must align with an in-demand occupation identified by the Alabama Committee on Credentialing and Career Pathways for the region where the college sits.",
+        "A student may not receive another award until a calendar year after completing the program the prior funds paid for.",
+        "A post-completion survey is required."
+      ],
+      "contacts": [],
+      "unknowns": [
+        "Whether the IT Help Desk course specifically appears on the in-demand occupation list for this region is not something this project can determine. That determination belongs to the scholarship program.",
+        "Whether a course running from November into February counts as within two semesters is a question for the college."
+      ],
+      "fetched_at": "2026-08-28T11:15:00-05:00"
+    },
+    {
+      "id": "JSCC-CAREERPATHWAYS",
+      "name": "Career Pathways / IET tuition assistance",
+      "full_name": "Career Pathways / Integrated Education and Training, Jefferson State Adult Education",
+      "administered_by": "Jefferson State Community College Adult Education",
+      "covers": "Registration assistance for Adult Education students entering selected non-credit Fast Track programs",
+      "determined_by": "Jefferson State Adult Education staff",
+      "determined_by_source_quote": "Tuition assistance may be available for Adult Education students to assist with registration.",
+      "source_url": "https://www.jeffersonstate.edu/ged-preparation-adult-education/career-pathways/",
+      "confidence": "verified",
+      "why_it_matters_here": "This door is inside the same college that runs the course, and it is tied to Adult Education enrollment rather than to income alone. It is easy to miss because it sits on an adult education page rather than the Fast Track page.",
+      "how_to_start": "Ask to schedule a Career Pathways / IET orientation.",
+      "who_it_is_for": [
+        {
+          "group": "Adult Education students, including people working on a GED",
+          "why": "The assistance is described as available for Adult Education students entering selected non-credit Fast Track programs.",
+          "source_quote": "Career Pathways/IET allows qualifying students to benefit from activities related to workplace readiness, academic and career counseling, and academic preparation while enrolling in selected Non-Credit Fast Track programs.",
+          "source_url": "https://www.jeffersonstate.edu/ged-preparation-adult-education/career-pathways/"
+        }
+      ],
+      "contacts": [
+        {
+          "role": "Adult Education Instructor",
+          "name": "Laura Barnett",
+          "phone": "(205) 856-7953",
+          "url": "https://www.jeffersonstate.edu/ged-preparation-adult-education/career-pathways/"
+        },
+        {
+          "role": "Adult Education Training Specialist",
+          "name": "Charles Motley",
+          "phone": "(205) 856-7957",
+          "url": "https://www.jeffersonstate.edu/ged-preparation-adult-education/career-pathways/"
+        }
+      ],
+      "unknowns": [
+        "The page says assistance 'may be available' and does not define who qualifies. Only the Adult Education office can say.",
+        "Whether the IT Help Desk course is among the 'selected' Fast Track programs is not published."
+      ],
+      "fetched_at": "2026-08-28T11:15:00-05:00"
+    },
+    {
+      "id": "ADRS-VRS",
+      "name": "Vocational Rehabilitation Service",
+      "full_name": "Alabama Department of Rehabilitation Services, Vocational Rehabilitation Service",
+      "administered_by": "Alabama Department of Rehabilitation Services (ADRS)",
+      "covers": "Individualized employment services including educational services and job training. The state page lists the service categories but does not itemise what costs are paid.",
+      "determined_by": "An ADRS Vocational Rehabilitation counselor",
+      "determined_by_source_quote": "To be eligible for VRS services, individuals must: Be an Alabama resident; Have a physical or mental impairment that is a substantial impediment to employment; Must be able to benefit from services in terms of going to work.",
+      "source_url": "https://www.rehab.alabama.gov/services/vr/vr",
+      "confidence": "verified",
+      "why_it_matters_here": "A disability that makes work harder is common and often undisclosed. This door is worth naming out loud precisely because people do not volunteer it, and because eligibility here does not turn on income.",
+      "how_to_start": "Contact a local VRS office, or call the ADRS state office and ask for Vocational Rehabilitation Service.",
+      "who_it_is_for": [
+        {
+          "group": "People with a physical or mental impairment that is a substantial barrier to employment",
+          "why": "This is the eligibility test the state publishes, alongside Alabama residency and being able to benefit from services in terms of going to work.",
+          "source_quote": "Have a physical or mental impairment that is a substantial impediment to employment",
+          "source_url": "https://www.rehab.alabama.gov/services/vr/vr"
+        }
+      ],
+      "contacts": [
+        {
+          "role": "Statewide toll-free",
+          "name": "ADRS, ask for Vocational Rehabilitation Service",
+          "phone": "800-441-7607",
+          "url": "https://www.rehab.alabama.gov/services/vr/vr"
+        },
+        {
+          "role": "State office",
+          "name": "ADRS State Office",
+          "phone": "(334) 293-7500",
+          "url": "https://www.rehab.alabama.gov/services/vr/vr"
+        }
+      ],
+      "unknowns": [
+        "Whether tuition, fees, and books for a specific non-credit course are covered is not stated on the service page. An ADRS counselor decides what a given plan pays for."
+      ],
+      "fetched_at": "2026-08-28T11:15:00-05:00"
+    },
+    {
+      "id": "SNAP-ET",
+      "name": "SNAP Employment and Training",
+      "full_name": "Alabama SNAP Employment and Training, administered by the Alabama Department of Human Resources",
+      "administered_by": "Alabama Department of Human Resources (DHR)",
+      "covers": "Vocational and job training programs, plus supportive services including transportation and childcare",
+      "determined_by": "Alabama Department of Human Resources",
+      "determined_by_source_quote": "Vocational and job training programs",
+      "source_url": "https://dhr.alabama.gov/employment-and-training-program-3/",
+      "confidence": "confirm_before_relying",
+      "provenance_note": "The DHR pages found during the build window describe this program from the vendor and procurement side rather than from the participant side. No participant-facing enrollment page was located. The program is real and the service list is quoted from a state page, but how a person actually enrolls could not be verified, so it is recorded as unconfirmed.",
+      "why_it_matters_here": "The supportive services matter as much as the training money here. Transportation and childcare are the costs that quietly end a course in week three, and they are rarely covered by a training scholarship.",
+      "how_to_start": "Ask a county DHR office about Employment and Training for food assistance recipients.",
+      "who_it_is_for": [
+        {
+          "group": "People receiving SNAP food assistance",
+          "why": "The program serves food assistance recipients and includes vocational and job training alongside supportive services.",
+          "source_quote": "case management, transportation, childcare, and other participant expenses",
+          "source_url": "https://dhr.alabama.gov/employment-and-training-program-3/"
+        }
+      ],
+      "contacts": [],
+      "unknowns": [
+        "How a person enrolls, and whether the program is running with a vendor in Jefferson County right now, could not be confirmed from the pages found. Ask a county DHR office before relying on this."
+      ],
+      "fetched_at": "2026-08-28T11:15:00-05:00"
+    }
+  ]
+}
